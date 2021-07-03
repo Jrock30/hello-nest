@@ -71,3 +71,27 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## tools
+> insomnia
+> npm i class-validator
+> npm i class-transformer
+> npm i @nestjs/mapped-types
+> nest install
+> npm i -g @nestjs/cli
+## Start
+- nest install
+> npm i -g @nestjs/cli
+- nest project create
+> nest new
+- nest dev start (package.json)
+> npm run start:dev
+- nest command line
+> nest
+- controller create, Dir -> controller 를 생성해준다.
+> nest generate controller (nest g co)
+- service create, Dir -> service 를 생성해준다.
+> nest generate service (nest g s)
+- module create
+> nest generate module (nest g mo)
+
