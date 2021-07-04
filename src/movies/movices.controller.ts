@@ -25,7 +25,7 @@ export class MoviesController {
 
     @Get("/:id") // Path Variables
     getOne(@Param("id") movieId:number) :Movie{
-        return this.moviesService.getOne(movieId);
+        return this.moviesService.getOne(movieId); 
     }
  
     @Post() // RequestBody Type CreateMoviceDto
